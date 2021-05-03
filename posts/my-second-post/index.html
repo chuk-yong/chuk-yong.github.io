@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html  dir="ltr" lang="en" data-theme=""><head>
-    <title> Chuk Yong | My Second Post </title>
+    <title> Chuk Yong | Adjusting Profile Sidebar on Hugo Anatole </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.84.0-DEV" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-    <meta name="description" content="Call me Chuk">
+    <meta name="description" content="AI. Computer Vision. Developer.">
     
     
     
@@ -69,8 +69,8 @@
                 crossorigin="anonymous"></script>
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My Second Post"/>
-<meta name="twitter:description" content="this is my second post!!"/>
+<meta name="twitter:title" content="Adjusting Profile Sidebar on Hugo Anatole"/>
+<meta name="twitter:description" content="When view in Chrome, the profile picture occupies the center of the section and the rows of favicons (contact, linkedin, github&hellip;) got lost in the bottom."/>
 
 
     
@@ -80,9 +80,9 @@
     <div class="logo-title">
         <div class="title">
             <img src="/images/chuk-profile-bw.png" alt="profile picture">
-            <h3 title=""><a href="/">Yong Chuk Ping</a></h3>
+            <h3 title=""><a href="/">Chuk Yong</a></h3>
             <div class="description">
-                <p>Call me Chuk</p>
+                <p>AI. Computer Vision. Developer.</p>
             </div>
         </div>
     </div>
@@ -129,12 +129,6 @@
         
             
             <li><a 
-                   href="/codes/"
-                        
-                   title="">Codes</a></li>
-        
-            
-            <li><a 
                    href="/posts/"
                         
                    title="">Posts</a></li>
@@ -156,11 +150,25 @@
         <div class="post-content">
             
             <div class="post-title">
-                <h3>My Second Post</h3>
+                <h3>Adjusting Profile Sidebar on Hugo Anatole</h3>
                 
             </div>
 
-            <p>this is my second post!!</p>
+            <p>When view in Chrome, the profile picture occupies the center of the section and the rows of favicons (contact, linkedin, github&hellip;) got lost in the bottom.</p>
+<p>Inside config.toml:</p>
+<pre><code>[params]
+customCss = [&quot;css/custom.css&quot;, &quot;css/styles.css&quot;]
+</code></pre><p>In your /hugo-blog folder, add a folder &lsquo;assets&rsquo;</p>
+<p>In /hugo-blog/assets add a folder &lsquo;css&rsquo;</p>
+<p>In /hug-blog/assets/css create two files: custom.css and styles.css</p>
+<p>Inside customer.css:</p>
+<pre><code>.sidebar .logo-title {
+    text-align: center;
+    padding-top: 240px;
+    flex: 1;
+}
+</code></pre><p>To move the profile picture and the favicons up, give padding-top a value of say, 120px.</p>
+<p>That should solve the problem.</p>
 </div>
         <div class="post-footer">
             <div class="info">
