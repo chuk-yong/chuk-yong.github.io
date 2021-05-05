@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Chuk Yong Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 May 2021 15:01:45 +0800</lastBuildDate><atom:link href="https://chuk-yong.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 May 2021 14:15:13 +0800</lastBuildDate><atom:link href="https://chuk-yong.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Debugging in Jupyter Notebook</title>
+      <link>https://chuk-yong.github.io/posts/enable-debugging-in-jupyter-notebook/</link>
+      <pubDate>Wed, 05 May 2021 14:15:13 +0800</pubDate>
+      
+      <guid>https://chuk-yong.github.io/posts/enable-debugging-in-jupyter-notebook/</guid>
+      <description>If you have Jupyter Lab 3.x, the extension is shipped by default.</description>
+    </item>
+    
     <item>
       <title>Adjusting Profile Sidebar on Hugo Anatole</title>
       <link>https://chuk-yong.github.io/posts/my-second-post/</link>

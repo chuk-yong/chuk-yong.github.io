@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://chuk-yong.github.io/posts/my-second-post/</loc>
-    <lastmod>2021-05-02T15:01:45+08:00</lastmod>
-  </url><url>
     <loc>https://chuk-yong.github.io/</loc>
-    <lastmod>2021-05-02T15:01:45+08:00</lastmod>
+    <lastmod>2021-05-05T14:15:13+08:00</lastmod>
+  </url><url>
+    <loc>https://chuk-yong.github.io/posts/enable-debugging-in-jupyter-notebook/</loc>
+    <lastmod>2021-05-05T14:15:13+08:00</lastmod>
   </url><url>
     <loc>https://chuk-yong.github.io/posts/</loc>
+    <lastmod>2021-05-05T14:15:13+08:00</lastmod>
+  </url><url>
+    <loc>https://chuk-yong.github.io/posts/my-second-post/</loc>
     <lastmod>2021-05-02T15:01:45+08:00</lastmod>
   </url><url>
     <loc>https://chuk-yong.github.io/categories/</loc>
