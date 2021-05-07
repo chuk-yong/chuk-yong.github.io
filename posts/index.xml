@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Chuk Yong Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 May 2021 14:15:13 +0800</lastBuildDate><atom:link href="https://chuk-yong.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 May 2021 22:22:41 +0800</lastBuildDate><atom:link href="https://chuk-yong.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Relocating Hugo to a new Mac</title>
+      <link>https://chuk-yong.github.io/posts/relocating-hugo-mac/</link>
+      <pubDate>Fri, 07 May 2021 22:22:41 +0800</pubDate>
+      
+      <guid>https://chuk-yong.github.io/posts/relocating-hugo-mac/</guid>
+      <description>I was on Windows 10 and recently moved to a M1 MacBook Air.</description>
+    </item>
+    
     <item>
       <title>Enable Debugging in Jupyter Notebook</title>
       <link>https://chuk-yong.github.io/posts/enable-debugging-in-jupyter-notebook/</link>
